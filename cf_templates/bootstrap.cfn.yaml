@@ -71,14 +71,15 @@ Resources:
 
     RoboMakerDeliveryChallengeIoTPolicy:
         Type: AWS::IoT::Policy
-        Properties: 
-            PolicyDocument: '{ 
-                "Version": "2012-10-17",
-                "Statement": [{ 
-                    "Effect": "Allow", 
-                    "Action":["iot:*"], 
-                    "Resource": ["*"] 
-                }]}' 
+        Properties:
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+              - iot:*
+              Resource:
+              - *
 
 Outputs: 
   
