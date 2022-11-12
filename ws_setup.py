@@ -292,7 +292,7 @@ class Setup:
                 log(" =>OK")
             else:
                 errlog("Setup failed!")
-                errlog("Reason: Failed to bundle the sample program!")
+                errlog("1 Reason: Failed to bundle the sample program!")
                 sys.exit(1)
                 
             log("Setp 2. simulation_ws build...")
@@ -301,7 +301,7 @@ class Setup:
                 log(" =>OK")
             else:
                 errlog("Setup failed!")
-                errlog("Reason: Failed to build the sample program!")
+                errlog("2 Reason: Failed to build the sample program!")
                 sys.exit(1)
                 
             log("Setp 3. simulation_ws bundle...")
@@ -310,7 +310,7 @@ class Setup:
                 log(" =>OK")
             else:
                 errlog("Setup failed!")
-                errlog("Reason: Failed to bundle the sample program!")
+                errlog("3 Reason: Failed to bundle the sample program!")
                 sys.exit(1)
 
             log("Setp 4. robot_ws install dependencies...")
@@ -320,7 +320,7 @@ class Setup:
                 log(" =>OK")
             else:
                 errlog("Setup failed!")
-                errlog("Reason: Failed to bundle the sample program!")
+                errlog("4 Reason: Failed to bundle the sample program!")
                 sys.exit(1)
                 
             log("Setp 5. robot_ws build...")
@@ -329,7 +329,7 @@ class Setup:
                 log(" =>OK")
             else:
                 errlog("Setup failed!")
-                errlog("Reason: Failed to build the sample program!")
+                errlog("5 Reason: Failed to build the sample program!")
                 sys.exit(1)
                 
             log("Setp 6. robot_ws bundle...")
@@ -338,7 +338,7 @@ class Setup:
                 log(" =>OK")
             else:
                 errlog("Setup failed!")
-                errlog("Reason: Failed to bundle the sample program!")
+                errlog("6 Reason: Failed to bundle the sample program!")
                 sys.exit(1)
                 
         except Exception as e:

@@ -24,7 +24,7 @@ fi
 
 echo "DONT FORGET TO RUN FROM WS ROS ROOT WS:  rosdep install -y --from-paths src --ignore-src"
 echo "GOING TO RUN ROSDEP UPDATE AND APT UPDATE in 5 SECONDS"
-sleep 5
+sleep 300
 
 rosdep update
 
