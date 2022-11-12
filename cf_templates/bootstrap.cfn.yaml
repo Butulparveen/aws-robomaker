@@ -79,7 +79,7 @@ Resources:
               Action:
               - iot:*
               Resource:
-              - *
+              - "*"
 
 Outputs: 
   
