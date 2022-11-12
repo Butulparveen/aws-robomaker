@@ -1,0 +1,6 @@
+build/
+bundle/
+install/
+log/
+src/turtlebot3/
+src/turtlebot3-description-reduced-mesh/
